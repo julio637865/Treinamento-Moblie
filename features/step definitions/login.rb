@@ -12,6 +12,6 @@ Quando('submeto minhas credenciais:') do |table|
 end
 Então('devo ver a notificação {string}') do |notice|
     #log(get_source) descobrir elementos na tela 
-    expect(@login.mensagem_longin.text).to eql notice
+    expect(@toaster.mensagem_longin.text).to eql notice
 end
 

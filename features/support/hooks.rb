@@ -4,6 +4,7 @@ Before do                                          # Gancho que é executado exe
   driver.manage.timeouts.implicit_wait = 10                                 #--> define o timeout implicito 
   @nav = Navigatior.new
   @login = Validacao_Login.new 
+  @toaster = Toaster.new
   
   find_element(xpath: "//android.widget.Button[@text='COMEÇAR']").click    #--> clica no botão começar do app   
 end

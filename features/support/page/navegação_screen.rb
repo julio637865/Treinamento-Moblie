@@ -13,3 +13,9 @@ class Navigatior
     end
 
 end 
+
+class Toaster 
+    def mensagem_longin 
+      return find_element(xpath: "//android.widget.Toast")
+    end
+end 
